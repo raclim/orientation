@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'National Parks';
+    src: url('./NationalPark-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'National Parks';
+    src: url('./NationalPark-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: 100;
+}
+
+@font-face {
+    font-family: 'National Parks';
+    src: url('./NationalPark-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'National Parks';
+    src: url('./NationalPark-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: bold;
+}

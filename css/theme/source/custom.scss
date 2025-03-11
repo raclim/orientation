@@ -1,0 +1,48 @@
+/**
+ * Custom theme for reveal.js. This is has the p5.js pink.
+ *
+ */
+
+
+// Default mixins and settings -----------------
+@use "sass:color";
+@import "../template/mixins";
+@import "../template/settings";
+// ---------------------------------------------
+
+
+// Include theme-specific fonts
+@import url(./fonts/national-parks/national-parks.css);
+
+
+// Override theme settings (see ../template/settings.scss)
+$backgroundColor: #fff;
+
+$mainColor: #222;
+$headingColor: #222;
+
+$mainFontSize: 42px;
+$mainFont: 'National Parks', Stargaze, sans-serif;
+$headingFont: 'National Parks', Stargaze, sans-serif;
+$headingTextShadow: none;
+$headingLetterSpacing: normal;
+$headingFontWeight: 600;
+$linkColor: #c01c4c;
+$linkColorHover: color.scale( $linkColor, $lightness: 15% );
+$selectionBackgroundColor: color.scale( $linkColor, $lightness: 25% );
+
+$heading1Size: 2em;
+$heading2Size: 1.6em;
+$heading3Size: 1.3em;
+$heading4Size: 1.0em;
+
+$overlayElementBgColor: 0, 0, 0;
+$overlayElementFgColor: 240, 240, 240;
+
+// Change text colors against dark slide backgrounds
+@include dark-bg-text-color(#fff);
+
+
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------
