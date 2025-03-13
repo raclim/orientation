@@ -69,6 +69,10 @@
 	text-shadow: var(--r-heading1-text-shadow);
 }
 
+.reveal h2 {
+	margin-top: 1em;
+}
+
 
 /*********************************************
  * OTHER
@@ -267,12 +271,13 @@
 
 .reveal a {
 	color: var(--r-link-color);
-	text-decoration: none;
+	text-decoration: underline;
 	transition: color .15s ease;
 }
 	.reveal a:hover {
 		color: var(--r-link-color-hover);
 		text-shadow: none;
+		background-color: #fff;
 		border: none;
 	}
 

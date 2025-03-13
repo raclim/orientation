@@ -18,16 +18,16 @@
 // Override theme settings (see ../template/settings.scss)
 $backgroundColor: #fff;
 
-$mainColor: #222;
-$headingColor: #222;
+$mainColor: #5501A4;
+$headingColor: #5501A4;
 
 $mainFontSize: 42px;
-$mainFont: 'National Parks', Stargaze, sans-serif;
-$headingFont: 'National Parks', Stargaze, sans-serif;
+$mainFont: "Space Grotesk", sans-serif;
+$headingFont: "Space Grotesk", sans-serif;
 $headingTextShadow: none;
 $headingLetterSpacing: normal;
 $headingFontWeight: 600;
-$linkColor: #c01c4c;
+$linkColor: #5501A4;
 $linkColorHover: color.scale( $linkColor, $lightness: 15% );
 $selectionBackgroundColor: color.scale( $linkColor, $lightness: 25% );
 

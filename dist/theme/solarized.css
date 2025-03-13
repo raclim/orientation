@@ -26,7 +26,7 @@ html * {
   --r-heading-color: #586e75;
   --r-heading-line-height: 1.2;
   --r-heading-letter-spacing: normal;
-  --r-heading-text-transform: uppercase;
+  --r-heading-text-transform: none;
   --r-heading-text-shadow: none;
   --r-heading-font-weight: normal;
   --r-heading1-text-shadow: none;
@@ -112,6 +112,10 @@ html * {
 
 .reveal h1 {
   text-shadow: var(--r-heading1-text-shadow);
+}
+
+.reveal h2 {
+  margin-top: 1em;
 }
 
 /*********************************************
@@ -306,13 +310,14 @@ html * {
  *********************************************/
 .reveal a {
   color: var(--r-link-color);
-  text-decoration: none;
+  text-decoration: underline;
   transition: color 0.15s ease;
 }
 
 .reveal a:hover {
   color: var(--r-link-color-hover);
   text-shadow: none;
+  background-color: #fff;
   border: none;
 }
 
