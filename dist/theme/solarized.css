@@ -253,6 +253,15 @@ html * {
   border-top: 3px solid #5501A4;
 }
 
+.reveal .software-iframe-display {
+  width: 100%;
+  height: 100%;
+}
+
+.reveal .software-description {
+  font-size: 0.5em;
+}
+
 .reveal input[type=checkbox] {
   appearance: none;
   background-color: #fff;
